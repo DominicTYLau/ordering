@@ -1,0 +1,25 @@
+
+
+  .item-container-settings{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding-top: 2rem;
+    gap: 1rem;
+  }
+
+  .item-name{
+    width: 45%;
+  }
+
+  .cost-name{
+    width: 45%;
+  }
+
+
+.delete-icon:hover {
+  color: #b79bff;
+  box-shadow: none;
+  --IconButton-hoverBg: none;
+}

@@ -1,0 +1,112 @@
+/* Container to hold everything */
+.search-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef7ff; /* Light background color */
+  }
+  
+  /* Inner box to contain the search bar and orders */
+  .search-container .innerBoxSearch {
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #fef7ff;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    padding: 3rem;
+    padding-bottom: 0;
+    width: 60%; /* Responsive width */
+  }
+  
+  /* Orders section */
+  .orders-section {
+    width: 90%; /* Full width for the orders section */
+    flex-grow: 1; /* Allow it to grow within the innerBox */
+    padding: 1rem;
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+
+
+  .orders-section::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  /* Hide scrollbars in Firefox */
+  .orders-section {
+    scrollbar-width: none; /* Hide scrollbar */
+  }
+  
+  /* Hide scrollbars in Internet Explorer and Edge */
+  .orders-section {
+    -ms-overflow-style: none; /* Hide scrollbar */
+  }
+
+  .table-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  /* Hide scrollbars in Firefox */
+  .table-container {
+    scrollbar-width: none; /* Hide scrollbar */
+  }
+  
+  /* Hide scrollbars in Internet Explorer and Edge */
+  .table-container {
+    -ms-overflow-style: none; /* Hide scrollbar */
+  }
+
+  /* Table container styling */
+  .table-container {
+    width: 90%;
+    max-height: 70%; /* Ensure it fits within the orders section */
+    border: none;
+    box-shadow: none;
+    padding: 1rem;
+    background-color: #fef7ff;
+    overflow-y: auto; /* Enable scrolling for the table */
+  }
+  
+  /* Table styles */
+  table {
+    width: 90%;
+    background-color: #fef7ff;
+  }
+  
+  th, td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+    color: #444;
+    font-size: 1rem;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    font-size: 0.9rem;
+    color: #666;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Button styling */
+  button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    margin: 0.2rem 0;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+    color: #fff;
+  }

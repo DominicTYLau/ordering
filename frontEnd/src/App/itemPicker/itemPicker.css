@@ -1,0 +1,78 @@
+.itemPicker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itemPicker .itemDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+.incrementer {
+    display: flex;
+    align-items: center;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    width: 90%;
+
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 2.5rem;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .increment-button {
+    margin: 0;
+    height: 2.5rem;
+    padding: 0;
+    background-color: #1e40af;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .decrement {
+    border-radius: 100px 0px 0px 100px;
+  }
+  
+  .increment {
+    border-radius: 0px 100px 100px 0px;
+  }
+  
+  .number-input {
+    height: 2.5rem;
+    width: 40%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+  }
+  
+  .number-input input {
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+  }
